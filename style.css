@@ -2,6 +2,7 @@
     font-family: Helmida;
     src: url(./font/helmida/Helmida.otf);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -13,12 +14,13 @@
 a{
     text-decoration: none;
 }
+
 .back-head{
     background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.6) ) ,
     url(./pic/back-head2-3-1.jpg);
     background-position: center;
     background-size: cover;
-    width: 100%;
+    max-width:100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -70,7 +72,7 @@ nav ul li:hover{
 }
 
 .back-head img{
-    width: 100%;
+    max-width:100%;
     height: 100%;
 }
 /*******************/
@@ -123,7 +125,7 @@ nav ul li:hover{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -145,7 +147,7 @@ nav ul li:hover{
     text-align: center;
 }
 .girl img {
-    width: 11%;
+    max-width: 15%;
     border-radius: 7px ;
 }
 .girl p {
@@ -174,19 +176,19 @@ nav ul li:hover{
 /**************************************/
 .boy{
     background-color: black;
-    width: 100%;
+    max-width:100%;
     height: 780px;
     display: flex;
     justify-content: center;
 }
 
 .boy img{
-    width: 100%;
+    max-width:100%;
     height: 100%;
 }
 
 .boy-par1 {
-    width: 30%;
+    max-width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -206,13 +208,13 @@ nav ul li:hover{
     justify-content: center
 }
 .boy-par2 img{
-    width: 98%;
+    max-width: 98%;
     height: 100%;
     object-fit: cover;
 }
 
 .boy-par3 {
-    width: 40%;
+    max-width: 40%;
     height: 100%;
 }
 .boy-par3{
@@ -234,7 +236,7 @@ nav ul li:hover{
     width: max-content;
 }
 .boy-par3-2{
-    width: 100%;
+    max-width:100%;
     height: 50%;
     display: flex;
     flex-direction: row;
@@ -243,7 +245,7 @@ nav ul li:hover{
 
 }
 .boy-par3-2 img{
-    width: 50%;
+    max-width:50%;
     height: 100%;
     object-fit: cover;
 }
@@ -385,7 +387,7 @@ nav ul li:hover{
 }
 /*Footer Start*/
 .footer{
-    width: 100%;
+    max-width:100%;
     height: 250px;
     background-color: #202126;
     display: flex;
